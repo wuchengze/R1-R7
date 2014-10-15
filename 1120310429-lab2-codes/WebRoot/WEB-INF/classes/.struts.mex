@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="strust2" location="225,10" size="280,245">
+    <action name="search" location="67,59" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="search_result.jsp" />
+      </result>
+    </action>
+    <action name="search_1" location="67,164" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="search_result_1.jsp" />
+      </result>
+    </action>
+    <action name="delete" location="12,112" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="search_result_1.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="search_result.jsp" path="/search_result.jsp" location="10,52" size="150,55" />
+  <webResource name="search_result_1.jsp" path="/search_result_1.jsp" location="570,157" size="150,55" />
+</Struts2Diagram>
+

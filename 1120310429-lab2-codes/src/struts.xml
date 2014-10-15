@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name ="strust2" namespace="/" extends ="struts-default">
+		<action name="search" class="lib2_package.search">
+			<result name="success">/search_result.jsp</result>
+		</action>
+		
+		<action name="search_1" class="lib2_package.search_1">
+			<result name="success">/search_result_1.jsp</result>
+		</action>
+		<action name="delete" class="lib2_package.delete">
+			<result name="success">/search_result_1.jsp</result>
+		</action>
+	</package>
+</struts>    
